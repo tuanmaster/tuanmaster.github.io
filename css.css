@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .banner {
     height: 40px;
@@ -12,6 +12,7 @@
 .banner-left {
     float: left;
     width: 50%;
+    height: 40px;
 }
 
 a.banner-left__link {float: left;color: #858578;font-size: 12px;font-family: arial;margin-right: 15px;}
@@ -42,6 +43,8 @@ i.fas.fa-phone {
 .banner-right {
     float: right;
     width: 50%;
+    padding-left: 13%;
+    height: 40px;
 }
 
 a.banner-right__login {
@@ -50,6 +53,10 @@ a.banner-right__login {
     color: #858578;
 }
 
+p.banner-right__desc > span {
+    border-left: 1px solid red;
+    padding-left: 10px;
+}
 i.fas.fa-power-off {
     margin-right: 7px;
     color: white;
@@ -84,11 +91,90 @@ a.banner-right__link:hover {
     text-decoration: none;
     transition: 1.5s;
 }
-
+a.banner-right__link1 {
+    text-decoration: none;
+}
 .banner-right__icon {
     float: right;
 }
 i.fas.fa-lock {
     color: white;
     font-size:12px;
+}
+img.img_icon {
+    line-height: 40px;
+    transition: 0.5s;
+}
+
+span.fa-stack.fa-lg {
+    text-align: center;
+    height: 25px;
+    overflow: hidden;
+}
+
+img.img_icon:hover {
+    transition: 0.5s;
+    transform: translateY(-25px);
+}
+.menu {
+    clear: both;
+    height: 90px;
+    background: #282828;
+    line-height: 90px;
+}
+
+.menu-left {
+    float: left;
+    width: 44%;
+}
+
+.menu-right {
+    float: left;
+    width: 56%;
+}
+
+.menu-right ul li{
+    width: 85px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 88px;
+}
+.menu-right ul li:hover{
+    border-bottom: 4px solid red; 
+}
+.menu-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.menu-right ul li a:hover{
+    text-decoration: none;
+    display: block;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+}
+.menu-right > ul > li > ul > li{
+    width: 200px;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #4b4b4b;
+     background: #1D1D1D;
+}
+.menu-right > ul > li > ul > li:hover{
+    border: none;
+}
+.menu-right > ul > li > ul > li > a{
+   border: none;
+   height: 30px
+}
+.menu-right ul li:hover .sub-menu{
+    display: block;
 }
