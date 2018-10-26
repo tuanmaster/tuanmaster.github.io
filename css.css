@@ -206,6 +206,10 @@ button.sub-menu__button {
     line-height: 40px;
     font-weight: bold;
     border: oldlace;
+    transition: 1s;
+}
+button.sub-menu__button:hover {
+    background: #C22121;
 }
 .menu-khung {
     width: 200px;
@@ -288,7 +292,7 @@ img.header-imges__img {
     position: absolute;
 }
 
-
+/*    End .header    */
 .section{
     background: #F8F8F8;
     height: 460px;
@@ -342,4 +346,36 @@ button.section__button:hover{
     background-color: #fff;
     position: relative;
     padding: 17px;
+}
+
+/*    End .section       */
+.specials {
+
+}
+
+h2.specials-title {
+    padding-top: 80px;
+    font-size: 48px;
+    color: #282828;
+    font-weight: 400;
+}
+
+span.black-bold {
+    font-weight: bold;
+}
+
+hr.hr-1 {
+    border: 5px solid red;
+    width: 20%;
+    float: left;
+    margin-top: 6px;
+}
+
+hr.hr-2 {
+    float: left;
+    width: 79%;
+}
+
+.row {
+    clear: both;
 }
