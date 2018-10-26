@@ -90,12 +90,14 @@
 					</li>
 					<li> <a href="#"> COMBOS </a></li>
 					<li> 
-						<a href="#"> CART <span class="menu-red"> 8 </span> </a>
+						<a href="#"> CART <sup class="menu-red"> 8 </sup> </a>
 						<ul class="sub-menu">
-							<li> YOUR ITEM(S) : <span class="sub-menu__red">  8 </span></li>
-							<li> TOTAL : <span class="sub-menu__red"> $353.50 </span></li>
-							<li> <button class="sub-menu__button"> PROCEED TO CHECKOUT </button></li>
-							<li><img src="logo-banner.png" class="sub-menu__logo"></li>
+							<li class="change"> YOUR ITEM(S) : <span class="sub-menu__red">  8 </span></li>
+							<li class="change"> TOTAL : <span class="sub-menu__red"> $353.50 </span></li>
+							<div class="menu-khung">
+							<button class="sub-menu__button"> <span class="menu-khung__con"> PROCEED TO CHECKOUT </span></button>
+							<img src="img/logo-banner.png" class="sub-menu__logo">
+							</div>
 						</ul>
 					</li>
 					<li> <a href="#"> CONTACT </a></li>
@@ -107,14 +109,14 @@
 	<div class="header">
 		<div class="container">
 			<div class="header-title">
-				<p class="header-title__desc"> THE BEST ASIAN CUISINE <br>IN ALL THE CITY</p>
+				<p class="header-title__desc"> THE BEST <span class="red"> ASIAN CUISINE</span> <br><span class="header-right">IN ALL THE CITY</span></p>
 				<button class="header-title__button"> START YOUR ONLINE ORDER </button>
 			</div>
 			<div class="header-imges">
-				<img src="nen.jpg" class="header-imges__img">
+				<img src="img/asian-girl.png" class="header-imges__img">
 			</div>
 			<div class="header-slide">
-
+				<!-- chưa có slide  -->
 			</div>
 		</div>
 	</div> <!-- End .header -->
@@ -123,19 +125,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<img src="sushi.jpg" class="section__img">
+					<div class="section-khung">
+						<img src="img/sushi.jpg" class="section__img">
+					</div>
 					<p class="section__title"> SUSHI AND ROLLS </p>
 					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
 					<button class="section__button"> GO TO SUSHI </button>
 				</div>
 				<div class="col-4">
-					<img src="soups.jpg" class="section__img">
+					<div class="section-khung">
+						<img src="img/soups.jpg" class="section__img">
+					</div>
 					<p class="section__title"> SOUPS AND HOT DISHES </p>
 					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
 					<button class="section__button"> GO TO SOUPS </button>
 				</div>
 				<div class="col-4">
-					<img src="DESSERTS.jpg" class="section__img">
+					<div class="section-khung">
+						<img src="img/DESSERTS.jpg" class="section__img">
+					</div>
 					<p class="section__title"> SWEETS AND DESSERTS </p>
 					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
 					<button class="section__button"> GO TO DESSERTS </button>
