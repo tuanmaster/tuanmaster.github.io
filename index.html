@@ -1,100 +1,792 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> Tuấn Phạm </title>
+	<title> Red samurai </title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+	
+	<div class="banner">
+		<div class="container">
+			<div class="banner-left">
+				<a href="#" class="banner-left__link">
+					<i class="far fa-envelope"></i>
+					tuan12345dai&copy;gmail.com 
+				</a>
+				<p class="banner-left__desc">
+					<i class="fas fa-phone"></i>
+					0976 654 867
+				</p>
+			</div>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			<div class="banner-right">
+				<a href="#" class="banner-right__login">
+					<i class="fas fa-power-off"></i>
+					<span>LOGIN</span>
+				</a>
+				<p class="banner-right__desc"> Not a Member?  </p>
+				<a href="#" class="banner-right__link">
+					REGISTER NOW
+					<i class="fas fa-lock"></i>
+				</a>
+				<div class="banner-right__icon">
+					<a href="#" class="banner-right__link1">
+						<span class="fa-stack fa-lg">
+							  <i class="fa fa-circle fa-stack-2x"></i>
+							  <i class="fab fa-facebook-f"></i>
+						</span>
+					</a>
+					<a href="#" class="banner-right__link1">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="banner-right__link1">
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End .banner -->
+
+	<div class="menu">
+		<div class="container">
+			<div class="menu-left">
+				<img src="logo-banner.png" class="menu-left__img">
+			</div>
+			<div class="menu-right">
+				<ul>
+					<li> <a href="#"> HOME </a></li>
+					<li> <a href="#"> SPECIALS </a></li>
+					<li> 
+						<a href="#"> FEATURES </a>
+						<ul class="sub-menu">
+							<li> <a href="#"> SHOPRIGHT </a></li>
+							<li> <a href="#"> SHOP LEFT </a></li>
+							<li> <a href="#"> GUEST CHECKOUT </a></li>
+							<li> <a href="#"> CONFIRMED CHECKOUT </a></li>
+							<li> <a href="#"> PROFILE PAGE </a></li>
+							<li> <a href="#"> ACCOUNT FORMS</a></li>
+						</ul>	
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+					<li> 
+						<a href="#"> SHOP </a>
+						<ul class="sub-menu">
+							<li> <a href="#"> HOW TO SHOP -FAQ </a></li>
+							<li> <a href="#"> SUSHI AND ROLLS </a></li>
+							<li> <a href="#"> COLD ENTREES </a></li>
+							<li> <a href="#"> SOUPS AND DISHES </a></li>
+							<li> <a href="#"> SWEETS AND DESSERTS </a></li>
+							<li> <a href="#"> BEVERAGES AND DRINKS </a></li>
+						</ul>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
+					<li> <a href="#"> COMBOS </a></li>
+					<li> 
+						<a href="#"> CART <span class="menu-red"> 8 </span> </a>
+						<ul class="sub-menu">
+							<li> YOUR ITEM(S) : <span class="sub-menu__red">  8 </span></li>
+							<li> TOTAL : <span class="sub-menu__red"> $353.50 </span></li>
+							<li> <button class="sub-menu__button"> PROCEED TO CHECKOUT </button></li>
+							<li><img src="logo-banner.png" class="sub-menu__logo"></li>
+						</ul>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
+					<li> <a href="#"> CONTACT </a></li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
 			</div>
-		</nav>
-		<form>
-			<div class="form-row">
-				<div class="form-group col-md-6">
-					<label for="inputEmail4">Email</label>
-					<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputPassword4">Password</label>
-					<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-				</div>
+		</div>
+	</div> <!-- End .menu -->
+
+	<div class="header">
+		<div class="container">
+			<div class="header-title">
+				<p class="header-title__desc"> THE BEST ASIAN CUISINE <br>IN ALL THE CITY</p>
+				<button class="header-title__button"> START YOUR ONLINE ORDER </button>
 			</div>
-			<div class="form-group">
-				<label for="inputAddress">Address</label>
-				<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			<div class="header-imges">
+				<img src="nen.jpg" class="header-imges__img">
 			</div>
-			<div class="form-group">
-				<label for="inputAddress2">Address 2</label>
-				<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+			<div class="header-slide">
+
 			</div>
-			<div class="form-row">
-				<div class="form-group col-md-6">
-					<label for="inputCity">City</label>
-					<input type="text" class="form-control" id="inputCity">
+		</div>
+	</div> <!-- End .header -->
+
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="sushi.jpg" class="section__img">
+					<p class="section__title"> SUSHI AND ROLLS </p>
+					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
+					<button class="section__button"> GO TO SUSHI </button>
 				</div>
-				<div class="form-group col-md-4">
-					<label for="inputState">State</label>
-					<select id="inputState" class="form-control">
-						<option selected>Choose...</option>
-						<option>...</option>
-					</select>
+				<div class="col-4">
+					<img src="soups.jpg" class="section__img">
+					<p class="section__title"> SOUPS AND HOT DISHES </p>
+					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
+					<button class="section__button"> GO TO SOUPS </button>
 				</div>
-				<div class="form-group col-md-2">
-					<label for="inputZip">Zip</label>
-					<input type="text" class="form-control" id="inputZip">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="form-check">
-					<input class="form-check-input" type="checkbox" id="gridCheck">
-					<label class="form-check-label" for="gridCheck">
-						Check me out
-					</label>
+				<div class="col-4">
+					<img src="DESSERTS.jpg" class="section__img">
+					<p class="section__title"> SWEETS AND DESSERTS </p>
+					<p class="section__desc"> Lorem ipsum dolor sit amet, consectetur ed adipisicing elit, sed do eiusmod tempor incididuut labore consectetur. </p>
+					<button class="section__button"> GO TO DESSERTS </button>
 				</div>
 			</div>
-			<button type="submit" class="btn btn-primary">Sign in</button>
-		</form>
-		<img src="image/anh.jpg" width="100%">
-	</div>
+		</div>
+	</div> <!-- End .section -->
+
+	<div class="specials">
+		<div class="container">
+			<h2 class="specials-title"> SAMURAI <span class="black-bold"> SPECIALS </span> </h2>
+			<hr class="hr-1">
+			<hr class="hr-2">
+			<div class="row">
+				<div class="col-3">
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> SALMON ROLLS </h3>
+						</a>
+						<div class="saodo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="saotrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 1 </p>
+							<p class="duoi"> SRV </p>
+						</div>
+						<div class="price-right"> $45.00 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+
+
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> RED OCTOPUS TAKOYAKI </h3>
+						</a>
+						<div class="timdo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="timxam"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 10 </p>
+							<p class="duoi"> PCS </p>
+						</div>
+						<div class="price-right"> $20.00 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+				</div> <!-- End .col-3 1-->
+
+				<div class="col-3">
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> ROUDON SOUP </h3>
+						</a>
+						<div class="saodo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="saotrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 1 </p>
+							<p class="duoi"> SRV </p>
+						</div>
+						<div class="price-right"> $67.00 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+
+
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> STEAMED RYU SALMON </h3>
+						</a>
+						<div class="timvang">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="timtrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 1 </p>
+							<p class="duoi"> SRV </p>
+						</div>
+						<div class="price-right"> $78.00 </div>
+					</div>
+					<a href="#" class="button" id="yellow"> ADD TO CART </a>
+				</div> <!-- End .col-3 2-->
+
+				<div class="col-3">
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> SPRINGTIME SUSHI </h3>
+						</a>
+						<div class="saodo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="saotrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 15 </p>
+							<p class="duoi"> PCS </p>
+						</div>
+						<div class="price-right"> $69.00 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+
+
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> CRISPY CHOCOLATE COOKIES </h3>
+						</a>
+						<div class="timdo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="saotrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 6 </p>
+							<p class="duoi"> PCS </p>
+						</div>
+						<div class="price-right"> $14.99 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+				</div> <!-- End .col-3 3-->
+
+				<div class="col-3">
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> KERINACHI RICE </h3>
+						</a>
+						<div class="saovang">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="saotrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 1 </p>
+							<p class="duoi"> SRV </p>
+						</div>
+						<div class="price-right"> $47.50 </div>
+					</div>
+					<a href="#" class="button" id="yellow"> ADD TO CART </a>
+
+
+					<a href="#" class="specials-link">
+						<div class="specials-link__img"></div>
+					</a>
+					<div class="textarea">
+						<a href="#" class="textarea-link">
+							<h3> SPICY ONION SOUP </h3>
+						</a>
+						<div class="timdo">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="timtrang"></li>
+							</ul>
+						</div>
+						<div class="textarea-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+						</div>
+
+					</div>
+					<div class="price">
+						<div class="price-left">
+							<p class="tren"> 1 </p>
+							<p class="duoi"> SRV </p>
+						</div>
+						<div class="price-right"> $50.00 </div>
+					</div>
+					<a href="#" class="button"> ADD TO CART </a>
+				</div> <!-- End .col-3 4-->
+			</div> <!-- End .row -->
+			<div class="specials-footer">
+				<p class="specials-footer__text"> AND THIS IS JUST A PEEK </p>
+				<h2 class="specials-footer__title"> CHECK OUT ALL THE DELICIOUS DISHES WE HAVE IN <span class="red">OUR MENU! </span></h2>
+				<a href="#" class="specials-footer__link"> CLICK HERE TO ENTER THE SHOP </a>
+			</div>
+		</div>
+	</div> <!-- End .specials -->
+
+	<div class="dream">
+		<div class="container">
+			<h2 class="dream-title"> OUR <span class="dream-bold">DREAM TEAM </span></h2>
+			<hr class="hr-1">
+			<hr class="hr-2">
+			<div class="row">
+				<div class="col-4">
+					<a href="#" class="dream-link">
+						<div class="dream-link__img"></div>
+					</a>
+					<h2 class="dream-name"> TOMOYO KINOMOTO </h2>
+					<p class="dream-job"> FOUNDER AND CEO </p>
+					<p class="dream-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel reiciendis consequuntur sed mollitia maxime, ea sit, perspiciatis impedit quos quisquam ipsum quidem repudiandae qui, eveniet beatae aut est placeat.</p>
+					<div class="dream-icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div> <!-- End .col-4 1-->
+				<div class="col-4">
+					<a href="#" class="dream-link">
+						<div class="dream-link__img"></div>
+					</a>
+					<h2 class="dream-name"> KENNY D. HIROSHI </h2>
+					<p class="dream-job"> SUSHI MASTER </p>
+					<p class="dream-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel reiciendis consequuntur sed mollitia maxime, ea sit, perspiciatis impedit quos quisquam ipsum quidem repudiandae qui, eveniet beatae aut est placeat.</p>
+					<div class="dream-icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div> <!-- End .col-4 2-->
+				<div class="col-4">
+					<a href="#" class="dream-link">
+						<div class="dream-link__img"></div>
+					</a>
+					<h2 class="dream-name"> FAYE VALENTINE </h2>
+					<p class="dream-job"> GENERAL SUPERVISOR </p>
+					<p class="dream-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel reiciendis consequuntur sed mollitia maxime, ea sit, perspiciatis impedit quos quisquam ipsum quidem repudiandae qui, eveniet beatae aut est placeat.</p>
+					<div class="dream-icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div> <!-- End .col-4 3-->
+			</div> <!-- End .row -->
+		</div> <!-- End .container -->
+	</div> <!-- End .ourDreamTeam -->
+
+	<div class="history">
+		<div class="container">
+			<h2 class="specials-title"> OUR <span class="black-bold"> HISTORY </span> </h2>
+			<hr class="hr-1">
+			<hr class="hr-2">
+			<div class="history-top">
+				<img src="anh12.jpg" class="history__img">
+				<h2 class="history__title"> THE BEGINNINGS OF THE <span class="red">RED SAMURAI</span></h2>
+				<p class="history__desc">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque temporibus laboriosam sunt vitae saepe error laborum et sint voluptates, necessitatibus possimus facilis atque, nobis incidunt nihil, soluta sed dignissimos ex. <br><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ducimus quis enim incidunt, quo velit voluptatum dolorem maiores? Voluptates officia, eveniet totam dignissimos consequatur, aperiam sint deserunt eligendi perferendis maiores!
+				</p>
+			</div>
+			<div class="history-bottom">
+				<img src="anh12.jpg" class="history__img">
+				<h2 class="history__title"> THE <span class="red">RED SAMURAI</span> TODAY </h2>
+				<p class="history__desc">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque temporibus laboriosam sunt vitae saepe error laborum et sint voluptates, necessitatibus possimus facilis atque, nobis incidunt nihil, soluta sed dignissimos ex. <br><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ducimus quis enim incidunt, quo velit voluptatum dolorem maiores? Voluptates officia, eveniet totam dignissimos consequatur, aperiam sint deserunt eligendi perferendis maiores!
+				</p>
+			</div>
+		</div>
+
+	</div> <!-- End .ourHistory -->
+
+	<div class="quangcao">
+		<div class="container">
+			<div class="quangcao-left">
+				<img src="anh14.png">
+			</div>
+			<div class="quangcao-mid">
+				<h2 class="quangcao__title"> MAKE YOUR <span class="red">PHONE ORDER</span></h2>
+				<p class="quangcao__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ipsa, sed quis aut molestias? Vero fugit culpa tempora sapiente. In illo rerum fuga cupiditate deleniti architecto est distinctio assumenda consequatur!</p>
+				<div class="quangcao__footer">
+					<p class="nendo"> 31ST STREET 1235, NY: </p>
+					(044) 555 - 123 - 1234
+				</div>
+			</div>
+		</div>
+	</div><!--  End .quangcao -->
+
+	<div class="offers">
+		<div class="container">
+			<h2 class="specials-title"> OFFERS AND <span class="black-bold"> COMBOS </span> </h2>
+			<hr class="hr-1">
+			<hr class="hr-2">
+			<div class="row">
+				<div class="col-4">
+					<img src="anh15.png" class="offers__img1">
+					<div class="offers-table">
+						<img src="anh16.png" class="offers__img2">
+						<img src="anh17.png" class="offers__img3">
+						<div class="offers-option">
+							<p class="offers-option__desc"> SUMMERTIME SUSHI (10PCS) </p>
+							<p class="offers-option__number"> 2 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SALMON ROLLS (12PCS) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> PORK YAKIMESHI (1SRV) </p>
+							<p class="offers-option__number"> 4 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> MOCHI SWEETS (5PCS) </p>
+							<p class="offers-option__number"> 2 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL CARAMEL CAKE (1CAKE) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> FUSHIRIKAWA BEER (500ML) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL SAKE (200ML) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+					</div>
+
+					<div class="offers-combo">
+						<p class="offers-combo__left"> THE RONIN COMBO </p>
+						<p class="offers-combo__right"> $225 </p>
+					</div>
+					<div class="offers__desc">
+						IDEAL TO SHARE <br>BETWEEN <span class="big">4 PERSONS </span>
+					</div>
+					<img src="anh18.png" class="offers__img4">
+					<a class="offers-link"> ADD TO CART </a>
+					<img src="anh19.png" class="offers__img5">
+				</div> <!-- End .col-4 1-->
+				<div class="col-4">
+					<img src="anh20.png" class="offers__img1">
+					<div class="offers-table">
+						<img src="anh16.png" class="offers__img2">
+						<img src="anh17.png" class="offers__img3">
+						<div class="offers-option">
+							<p class="offers-option__desc"> SPRINGTIME SUSHI (5PCS) </p>
+							<p class="offers-option__number" class="yellow"> 3 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SALMON ROLLS (6PCS) </p>
+							<p class="offers-option__number" class="yellow"> 3 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> PORK YAKIMESHI (1SRV) </p>
+							<p class="offers-option__number" class="yellow"> 8 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> MOCHI SWEETS (5PCS) </p>
+							<p class="offers-option__number" class="yellow"> 5 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL CARAMEL CAKE (1CAKE) </p>
+							<p class="offers-option__number" class="yellow"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> FUSHIRIKAWA BEER (500ML) </p>
+							<p class="offers-option__number" class="yellow"> 3 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL SAKE (200ML) </p>
+							<p class="offers-option__number" class="yellow"> 1 </p>
+						</div>
+					</div>
+
+					<div class="offers-combo">
+						<p class="offers-combo__left"> THE GOLD COMBO </p>
+						<p class="offers-combo__right"> $390 </p>
+					</div>
+					<div class="offers__desc">
+						IDEAL TO SHARE <br>BETWEEN <span class="big">8 PERSONS </span>
+					</div>
+					<img src="anh21.png" class="offers__img4">
+					<a class="offers-link" class="nenvang"> ADD TO CART </a>
+					<img src="anh19.png" class="offers__img5">
+				</div> <!-- End .col-4 2-->
+				<div class="col-4">
+					<img src="anh15.png" class="offers__img1">
+					<div class="offers-table">
+						<img src="anh16.png" class="offers__img2">
+						<img src="anh17.png" class="offers__img3">
+						<div class="offers-option">
+							<p class="offers-option__desc"> SUMMERTIME SUSHI (5PCS) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SALMON ROLLS (6PCS) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> PORK YAKIMESHI (1SRV) </p>
+							<p class="offers-option__number"> 2 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> MOCHI SWEETS (5PCS) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL CARAMEL CAKE (1CAKE) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> FUSHIRIKAWA BEER (500ML) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+						<div class="offers-option">
+							<p class="offers-option__desc"> SMALL SAKE (200ML) </p>
+							<p class="offers-option__number"> 1 </p>
+						</div>
+					</div>
+
+					<div class="offers-combo">
+						<p class="offers-combo__left"> THE HIROR COMBO </p>
+						<p class="offers-combo__right"> $590 </p>
+					</div>
+					<div class="offers__desc">
+						IDEAL TO SHARE <br>BETWEEN <span class="big">2 PERSONS </span>
+					</div>
+					<img src="anh18.png" class="offers__img4">
+					<a class="offers-link"> ADD TO CART </a>
+					<img src="anh19.png" class="offers__img5">
+				</div> <!-- End .col-4 3-->
+			</div> <!-- End .row -->
+			<div class="offers-footer">
+				<p class="offers-footer__desc"> YOU DON'T LIKE THEM? </p>
+				<h3 class="offers-footer__title"> DON'T WORRY! WE CHANGE THE COMBOS <span class="red">EVERY MONTH! </span></h3>
+				<p class="offers-footer__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur amet voluptatem harum, quisquam asperiores voluptate nihil et. Id est, repellat quos provident veniam quam deleniti neque, dignissimos debitis, quaerat in?</p>
+			</div>
+		</div> <!-- End .container -->
+	</div> <!-- End .offers -->
+
+	<div class="slide2">
+		<div class="container">
+			<div class="slide2-body">
+				<div class="slide2-body__img"></div>
+				<h2 class="slide2-body__title"> "THE BEST SPRINGTIME ROLLS IN TOWN" </h2>
+				<p class="slide2-body__desc"> Faye Valentine, Age 29 </p>
+			</div>
+			<div class="slide2-body">
+				<div class="slide2-body__img"></div>
+				<h2 class="slide2-body__title"> "THE BEST SERVICE I'VE SEEN </h2>
+				<p class="slide2-body__desc"> Tomoyo Kinomoto, Age 24 </p>
+			</div>
+			<div class="slide2-body">
+				<div class="slide2-body__img"></div>
+				<h2 class="slide2-body__title"> "THE BEST PRICES YOU CAN GET" </h2>
+				<p class="slide2-body__desc"> Kenny D. Hiroshi, Age 32 </p>
+			</div>
+		</div>
+	</div> <!-- End .slide2 -->
+
+	<div class="thongke">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<div class="tron">
+						<span> 13 </span>
+					</div>
+					<h4 class="thongke__desc"> YEARS OF <br> <span class="red">EXPERIENCE</span></h4>
+				</div>
+				<div class="col-3">
+					<div class="tron">
+						<span> 12500 </span>
+					</div>
+					<h4 class="thongke__desc"> HAPPY <br> <span class="red">CUSTOMERS</span></h4>
+				</div>
+				<div class="col-3">
+					<div class="tron">
+						<span> +63000 </span>
+					</div>
+					<h4 class="thongke__desc"> DISHES <br> <span class="red">SERVED</span></h4>
+				</div>
+				<div class="col-3">
+					<div class="tron">
+						<span> 2 </span>
+					</div>
+					<h4 class="thongke__desc"> BRANCHES <br> <span class="red">IN USA</span></h4>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End .thongke -->
+
+	<div class="contact">
+		<div class="container">
+			<h2 class="contact-title"><span class="black-bold"> CONTACT </span> US </h2>
+			<hr class="hr-1">
+			<hr class="hr-2">
+			<div class="row">
+				<div class="col-4">
+					<div class="contact-left">
+						<img src="anh23.jpg" class="contact-left__img">
+					</div>
+					<div class="contact-right">
+						<h4 class="contact-right__title"> NEW YORK </h4>
+						<p class="contact-right__desc"> W 39th Street 1234, New York </p>
+						<br>
+						<h4 class="contact-right__title"> CHICAGO </h4>
+						<p class="contact-right__desc"> Colombrus Ave 1234, Chicago </p>
+					</div>
+				</div> <!-- End .col-4 1 -->
+				<div class="col-4">
+					<div class="contact-left">
+						<img src="anh24.jpg" class="contact-left__img">
+					</div>
+					<div class="contact-right">
+						<h4 class="contact-right__title"> NEW YORK </h4>
+						<p class="contact-right__desc"> (044) 555 123 1234 / 1235 </p>
+						<br>
+						<h4 class="contact-right__title"> CHICAGO </h4>
+						<p class="contact-right__desc"> (044) 555 123 1234 / 1235 </p>
+					</div>
+				</div> <!-- End .col-4 2 -->
+				<div class="col-4">
+					<div class="contact-left">
+						<img src="anh25.jpg" class="contact-left__img">
+					</div>
+					<div class="contact-right">
+						<h4 class="contact-right__title"> NEW YORK </h4>
+						<p class="contact-right__desc"> tuan12345dai@gmail.com </p>
+						<br>
+						<h4 class="contact-right__title"> CHICAGO </h4>
+						<p class="contact-right__desc"> phamtuanxx98@gmail.com</p>
+					</div>
+				</div> <!-- End .col-4 3 -->
+			</div> <!-- End .row -->
+			<form action="#" class="form">
+				<div class="row">
+					<div class="col-6">
+						<label for="name"> Your Name </label>
+						<input type="text" name="name" id="name" placeholder="Phạm Văn Tuấn">
+						<label for="email"> Your Email Address </label>
+						<input type="email" name="email" id="email" placeholder="tuan12345dai@gmail.com">
+						<label for="name"> Your Name </label>
+						<input type="text" name="name" id="name" placeholder="CNTT1 - K11">
+					</div> <!-- End .col-6 1-->
+					<div class="col-6">
+						<label for="message"> Your Message </label>
+						<textarea id="message" placeholder="Write your message here" name="message"></textarea>
+					</div> <!-- End .col-6 2-->
+				</div> <!-- End .row -->
+				<button id="submit"> SEND MESSAGE </button>
+			</form> <!-- End .form -->
+		</div> <!-- End .container -->
+	</div> <!-- End .contactUs -->
+
+	<div class="map">
+		<div class="embed-responsive embed-responsive-16by9" style="height: 300px;">
+		  <iframe style="height: 300px;" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0944926327097!2d105.79914286531844!3d21.028904793148374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab43dce395ef%3A0x907b90a45a3e8d0e!2zVmnhu4duIEtob2EgaOG7jWMgdsOgIEPDtG5nIG5naOG7hyBHVFZULCAxMjUyIMSQxrDhu51uZyBMw6FuZywgTMOhbmcgVGjGsOG7o25nLCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1523621337837"></iframe>
+		</div>
+	</div> <!-- End .map -->
+
+	<div class="footer">
+		<a href=".header">
+			<img src="anh26.png" class="footer__img">
+		</a>
+		<div class="article">
+			<p class="article__desc"> <span class="bold">THE <span class="red">RED </span>SAMURAI </span>- ALL RIGHTS RESERVED 2014 </p>
+			<div class="article-icon">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-google-plus-g"></i>
+				<i class="fas fa-rss"></i>
+				<i class="fab fa-vimeo-v"></i>
+				<i class="fab fa-flickr"></i>
+			</div>
+		</div>
+	</div> <!-- End .footer -->
+
 	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
