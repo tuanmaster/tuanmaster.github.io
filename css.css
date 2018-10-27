@@ -7,7 +7,9 @@ p{
     margin:0;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+h2{
+    font-family: 'Oswald', sans-serif;
+}
 /*  BANNER  */
 .banner {
     height: 40px;
@@ -22,7 +24,12 @@ p{
     height: 40px;
 }
 
-a.banner-left__link {float: left;color: #858578;font-size: 12px;font-family: arial;margin-right: 15px;}
+a.banner-left__link {
+    float: left;color: #858578;
+    font-size: 12px;
+    font-family: arial;
+    margin-right: 15px;
+}
 
 i.far.fa-envelope {
     color: white;
@@ -98,7 +105,7 @@ a.banner-right__link:hover {
     text-decoration: none;
     transition: 1.5s;
 }
-a.banner-right__link1 {
+a.icon__link {
     text-decoration: none;
 }
 .banner-right__icon {
@@ -183,11 +190,11 @@ img.img_icon:hover {
     font-size: 11px;
 }
 .menu-right > ul > li > ul > li:hover{
-   border-bottom: 1px dashed #4b4b4b;
+ border-bottom: 1px dashed #4b4b4b;
 }
 .menu-right > ul > li > ul > li > a{
-   display: block;
-   margin-left: 30px;
+ display: block;
+ margin-left: 30px;
 }
 .menu-right > ul > li > ul > li > a:hover{
     color: red;
@@ -357,7 +364,7 @@ button.section__button:hover{
 }
 /*  End  section  */
 
- /*  SPECIALS  */
+/*  SPECIALS  */
 .specials {
     font-family: 'Vollkorn', serif;
     height: 1100px;
@@ -375,15 +382,16 @@ span.black-bold {
 }
 
 hr.hr-1 {
-    border: 3px solid red;
+    border: 3px solid #DB2E2E;
     width: 20%;
     float: left;
-    margin-top: 11px;
+    margin-top: 12px;
 }
 
 hr.hr-2 {
     float: left;
     width: 79%;
+    border: 1px solid #D2D2D2;
 }
 
 .row {
@@ -391,8 +399,8 @@ hr.hr-2 {
 }
 
 .col-3 {
-    
-margin-top: 65px;
+
+    margin-top: 65px;
 }
 .col-3-1 {
     position: relative;
@@ -472,8 +480,8 @@ a.textarea-link > h3 {
 }
 
 .saodo > ul {
-    
-margin: 5px 0;
+
+    margin: 5px 0;
 }
 
 .saodo > ul > li {
@@ -580,3 +588,518 @@ a.specials-footer__link:hover {
 }
 /* End .specials */
 
+/*  OUR DREAM TEAM  */
+.dream {
+    background-image: url(img/nendream.jpg);
+    background-repeat: no-repeat;
+}
+h2.dream-title {
+    padding-top: 60px;
+    color: white;
+    font-size: 43px;
+    font-weight: 100;
+}
+span.dream-bold {
+    font-weight: bold;
+}
+a.dream-link {
+
+}
+.dream-link__img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid #4A4A4A;
+    margin: 0 auto;
+}
+.dream-link__img > img {
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 5px solid #DB2E2E;
+}
+h2.dream-name {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+p.dream-job {
+    font-size: 11px;
+    color: #DA2E2E;
+    margin-bottom: 20px;
+}
+
+p.dream-text {
+    color: #797A79;
+    text-align: center;
+    font-size: 17px;
+}
+.dream-icon {
+    margin: 30px;
+    margin-bottom: 100px;
+}
+span.trang {
+    color: white;
+}
+/*  End .dream */
+
+/* HISTORY */
+.history {
+    margin-top: 60px;
+}
+h2.history-title {
+    font-size: 42px;
+}
+.history-top {
+    margin-top: 80px;
+    width: 100%;
+    height: 280px;
+}
+
+img.history__img {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+.history-top__right {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+}
+
+h2.history__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+p.history__desc {
+    color: #8d8d8d;
+    font-size: 15px;
+}
+.history-bottom {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 80px;
+}
+
+.history-bottom > img {
+    height: 280px;
+}
+/* End .history  */
+
+
+/* QUANG CAO */
+.quangcao {
+    background-image: url(img/nenquangcao.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 468px;
+    position: relative;
+    height: 468px;
+}
+
+.quangcao-left {
+    float: left;
+    width: 30%;
+}
+
+.quangcao-mid {
+    float: left;
+    width: 32%;
+}
+.quangcao-right {
+    position: absolute;
+    margin: -102px 0 0 55%;
+}
+
+h2.quangcao__title {
+    margin-top: 100px;
+    font-size: 18px;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+p.quangcao__desc {
+    color: #A2A2A2;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.quangcao__footer {
+    text-align: right;
+    color: white;
+    margin-right: -30%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+span.nendo {
+    padding: 5px;
+    background: #DB2E2E;
+    font-size: 21px;
+    font-weight: bold;
+}
+/* End .quangcao*/
+
+/* OFFERS  */
+.offers {
+    clear: both;
+    padding-top: 60px;
+}
+
+h2.offers-title {
+    font-size: 36px;
+}
+.offers {
+    clear: both;
+    padding-top: 60px;
+}
+
+h2.offers-title {
+    font-size: 36px;
+}
+
+img.offers__img1 {
+
+}
+
+.offers-table {
+    position: relative;
+    background: #282828;
+    margin: 0 32px;
+    padding: 0px 15px;
+}
+
+img.offers__img2 {
+    position: absolute;
+    margin: 52% -58%;
+}
+
+img.offers__img3 {
+    position: absolute;
+    margin: 52% 50%;
+}
+
+.offers-option {
+    border-bottom: 1px dashed #4b4b4b;
+    height: 50px;
+    line-height: 50px;
+}
+
+p.offers-option__desc {
+    color: #DEDEDE;
+    font-size: 12px;
+    float: left;
+    width: 80%;
+    text-align: left;
+    font-weight: 600;
+}
+
+p.offers-option__number {
+    float: left;
+    width: 20%;
+    color: #A72C2C;
+    text-align: right;
+}
+
+.combo{
+    background-image: url(img/anh18.png);
+    background-repeat: no-repeat;
+    height: 175px;
+    background-position-x: 22px;
+    background-size: 306px 175px;
+}
+.offers-combo {
+    height: 84px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+p.offers-combo__left {
+    float: left;
+    width: 50%;
+    text-align: right;
+    height: 73px;
+    color: white;
+    font-size: 23px;
+}
+
+p.offers-combo__right {
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 10px;
+    color: white;
+}
+.offers__desc {
+    clear: both;
+    height: 50px;
+    font-size: 13px;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+span.big {
+    font-size: 16px;
+    font-weight: 800;
+}
+.offers-combo__footer {
+    position: relative;
+    clear: both;
+   
+}
+
+a.offers-link {
+    position: absolute;
+    color: #FFFF;
+    padding: 5px 10px 5px 23px;
+    background: #DB2E2E;
+    text-align: center;
+    margin: 14px 0 0 24px;
+    background-image: url(img/iconCong.png);
+    background-repeat: no-repeat;
+    background-position: 9px 9px;
+    background-size: 11px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 1s;
+}
+a.offers-link:hover{
+    background-image: url(img/iconCong.png);
+    background-repeat: no-repeat;
+    background-position: 9px 9px;
+    background-size: 11px;
+    text-decoration: none;
+    background-color: #C22121;
+}
+div#anhnenvang {
+    background-image: url(img/anh21.png);
+    background-repeat: no-repeat;
+    height: 175px;
+    background-position-x: 22px;
+    background-size: 306px 175px;
+}
+.offers-footer {
+    margin-top: 70px;
+    text-align: center;
+}
+
+p.offers-footer__desc {
+    color: #B8B8B8;
+    font-size: 15px;
+}
+
+h3.offers-footer__title {
+    margin: 20px;
+    color: #484848;
+    font-size: 25px;
+}
+
+p.offers-footer__text {
+    color: #b8b8b8;
+    margin: 0 140px 80px 140px;
+    font-size: 14px;
+}
+/* End .offers  */
+
+/*  SLIDE  */
+.slide {
+    background-image: url(img/nen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+    height: 1200px;
+}
+
+.slide-body {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.slide-body__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.slide-body__img > img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 3px solid black;
+}
+h2.slide-body__title {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+p.slide-body__desc {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 25px;
+}
+/* End .slide  */
+
+/* THONG KE */
+.thongke {
+    background-image: url(img/nenthongke.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 520px;
+    height: 520px;
+    padding: 60px;
+}
+
+.tron {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #535353;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-left: 10px solid red;
+}
+
+.tron > p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h4.thongke__desc {
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End .thongke */
+
+/*  CONTACT US */
+.contact {
+    padding-top: 70px;
+}
+
+h2.contact-title {
+    font-size: 40px;
+}
+
+.contact-left {
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+}
+
+img.contact-left__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 5px solid #9D1E1E;
+}
+
+.contact-right {
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+}
+
+h4.contact-right__title {
+    font-size: 20px;margin: 0;color: #6C6C6C;
+}
+
+p.contact-right__desc {
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+form.form {
+    clear: both;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    background: #F8F8F8;
+    border: 1px solid #E3E3E3;
+    padding-left: 20px;
+}
+textarea#message {
+    width: 100%;
+    height: 218px;
+    background: #F8F8F8;
+    padding: 10px 30px;
+}
+.send {
+    margin: 50px 460px 70px 460px;
+}
+
+input#submit {
+    background: #DB2E2E;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: url(img/iconhopthu.png);
+    background-repeat: no-repeat;
+    background-position: 30px 15px;
+    padding-left: 25px;
+}
+/*  End .contact  */
+
+ /*  FOOTER  */
+.footer {
+    background: #282828;
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+}
+
+.footer > a {
+    position: absolute;
+    margin-top: -59px;
+    margin-left: 44.5%;
+}
+
+.article {
+    
+}
+
+p.article__desc {
+    float: left;
+    width: 50%;
+    text-align: right;
+    color: #D3D3D3;
+    font-size: 14px;
+    padding-right: 20px;
+}
+span.bold {
+    color: white;
+    font-weight: bold;
+}
+
+.article-icon {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+/* End .footer */
