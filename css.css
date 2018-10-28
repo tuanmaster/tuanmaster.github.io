@@ -190,17 +190,18 @@ img.img_icon:hover {
     font-size: 11px;
 }
 .menu-right > ul > li > ul > li:hover{
- border-bottom: 1px dashed #4b4b4b;
+   border-bottom: 1px dashed #4b4b4b;
 }
 .menu-right > ul > li > ul > li > a{
- display: block;
- margin-left: 30px;
+   display: block;
+   margin-left: 30px;
 }
 .menu-right > ul > li > ul > li > a:hover{
     color: red;
 }
 .menu-right ul li:hover .sub-menu{
     display: block;
+    transition: 1s;
 }
 li.change {
     color: white;
@@ -465,6 +466,16 @@ button.section__button:hover{
     position: relative;
     padding: 17px;
 }
+.col-4.sangtrai {
+    left: 50%;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.col-4.sangtrai.cdsangtrai {
+    left: 0;
+    opacity: 1;
+}
 /*  End  section  */
 
 /*  SPECIALS  */
@@ -510,6 +521,7 @@ hr.hr-2 {
     height: 275px;
     clear: both;
 }
+
 a.specials-link {
     text-decoration: none;
     position: absolute;
@@ -566,6 +578,7 @@ a#nenvang:hover{
 .textarea__img {
     position: absolute;
     margin-left: 20px;
+    top: -6px;
 }
 a.textarea-link {
     text-decoration: none;
@@ -689,12 +702,48 @@ a.specials-footer__link:hover {
     text-decoration: none;
     background-color: #C22121;
 }
+/*  phÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n hiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡u ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ng chuyÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢n ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ng trong specials*/
+.col-3-1.bentrai {
+    transition: 1.5s;
+    opacity: 0;
+    left: -500%;
+}
+
+.col-3-1.bentrai.specialsSangPhai {
+    opacity: 1;
+    left: 0;
+}
+
+.col-3-1.benphai {
+    left: 500%;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.col-3-1.benphai.specialsSangTrai {
+    opacity: 1;
+    left: 0;
+}
+.textarea__img.bentren {
+}
+.textarea__img.bentren > img {
+    height: 20px;
+    width: 38px;
+    opacity: 0;
+}
+.textarea__img.bentren.anhhien > img {
+    opacity: 1;
+    transition: 1.5s;
+    height: 59px;
+    width: 38px;
+}
 /* End .specials */
 
 /*  OUR DREAM TEAM  */
 .dream {
     background-image: url(img/nendream.jpg);
     background-repeat: no-repeat;
+    position: relative;
 }
 h2.dream-title {
     padding-top: 60px;
@@ -715,7 +764,7 @@ a.dream-link {
     border: 1px solid #4A4A4A;
     margin: 0 auto;
 }
-.dream-link__img > img {
+.dream-link__img a > img {
     width: 238px;
     height: 238px;
     border-radius: 50%;
@@ -745,8 +794,56 @@ p.dream-text {
     margin: 30px;
     margin-bottom: 100px;
 }
+img.img_iconto {
+    transition: 0.5s;
+}
+img.img_iconto:hover {
+    margin-top: -50px;
+    transition: 0.5s;
+}
+
+span.fa-stack.fa-lg.tohon {
+    text-align: center;
+    height: 35px;
+    overflow: hidden;
+}
+
 span.trang {
     color: white;
+}
+
+/*css cho hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng chuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng phÃƒÂ¡Ã‚ÂºÃ‚Â§n dream*/
+.col-4.dream-col1 {
+    left: -50%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.col-4.dream-col1.dreamtraiqua {
+    left: 0;
+    opacity: 1;
+}
+
+.col-4.dream-col2 {
+    transition: 1s;
+    position: absolute;
+    bottom: -100%;
+    left: 36%;
+    width: 380px;
+}
+
+.col-4.dream-col2.dreamduoilen {bottom: 0;}
+
+.col-4.dream-col3 {
+    transition: 1s;
+    opacity: 0;
+    left: 100%;
+}
+
+.col-4.dream-col3.dreamphaiqua {
+    opacity: 1;
+    right: 0;
+    left: 33.4%;
 }
 /*  End .dream */
 
@@ -815,7 +912,9 @@ p.history__desc {
 }
 .quangcao-right {
     position: absolute;
-    margin: -102px 0 0 55%;
+    margin: -102px 0 0 61%;
+    transition: 1s;
+    opacity: 0;
 }
 
 h2.quangcao__title {
@@ -844,6 +943,32 @@ span.nendo {
     background: #DB2E2E;
     font-size: 21px;
     font-weight: bold;
+}
+.quangcao-right.phonecd {
+    margin: -102px 0 0 55%;
+    opacity: 1;
+}
+.quangcao-left.dichtaicho {
+    animation: 1s chuyendong ease forwards;
+}
+@-webkit-keyframes chuyendong{
+    0%{
+        transform: translateX(-10px);
+    }
+    
+    40%{
+        transform: translateX(10px);
+    }
+    60%{
+        transform: translateX(-10px);
+    }
+    80%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
 }
 /* End .quangcao*/
 
@@ -953,7 +1078,7 @@ span.big {
 .offers-combo__footer {
     position: relative;
     clear: both;
-   
+
 }
 
 a.offers-link {
@@ -1169,9 +1294,40 @@ input#submit {
     background-position: 30px 15px;
     padding-left: 25px;
 }
+
+.col-4.contact-col1 {
+    left: -50%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.col-4.contact-col1.contacttraiqua {
+    opacity: 1;
+    left: 0;
+}
+
+.col-4.contact-col3 {
+    right: -50%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.col-4.contact-col3.contactphaiqua {
+    opacity: 1;
+    right: 0;
+}
+
+.col-4.contact-col2 {
+    margin-top: -50%;opacity: 0;transition: 1s;
+}
+
+.col-4.contact-col2.contacttrenxuong {
+    margin-top: 60px;
+    opacity: 1;
+}
 /*  End .contact  */
 
- /*  FOOTER  */
+/*  FOOTER  */
 .footer {
     background: #282828;
     position: relative;
@@ -1186,7 +1342,7 @@ input#submit {
 }
 
 .article {
-    
+
 }
 
 p.article__desc {
