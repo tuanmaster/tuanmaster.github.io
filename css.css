@@ -261,7 +261,7 @@ sup.menu-red {
 .header{
     background-image: url(img/nen.jpg);
     background-repeat: no-repeat;
-    height: 545px;
+    height: 544px;
     position: relative;
 }
 .header-title {
@@ -269,42 +269,144 @@ sup.menu-red {
     font-size: 33px;
     font-weight: bold;
     font-family: auto;
+    float: left;
+    width: 55%;
 }
 
 p.header-title__desc {
-    padding: 80px 0 0 120px;
     margin: 0;
+    margin-left: -600px;
+    opacity: 0;
+    transition: 1s;
+    padding-top: 80px;
+}
+p.header-title__desc.traiqua {
+    padding: 80px 0 0 120px;
+    opacity: 1;
+    margin-left: 0;
 }
 
 button.header-title__button {
-    border: 0;
     background: #ff000003;
     font-size: 14px;
-    margin-left: 29%;
+    margin-left: 25%;
     color: white;
     font-weight: 600;
     border: 1px solid white;
     padding: 10px;
     cursor: pointer;
     transition: 1s;
+    position: absolute;
+    margin-top: -50%;
+    opacity: 0;
 }
 button.header-title__button:hover{
     background: red;
     border: 1px solid red;
 }
+button.header-title__button.phaiqua {
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 30px;
+    opacity: 1;
+    transition-delay: 0.5s;
+}
 span.header-right {
-    margin-left: 140px;
+    margin-left: 180px;
 }
 span.red {
     color: #DB2E2E;
     font-weight: 800;
 }
 img.header-imges__img {
-    margin: -55.5% 0 0 139%;
+    opacity: 0;
+    padding-left: 200px;
+    transition: 1s;
+    z-index: 1;
 }
-.header-imges {
+.header-imges {float: left;width: 45%;margin-top: -16px;}
+img.header-imges__img.trenxuong {
+    opacity: 1;
+    padding: 0;
+    z-index: 1;
+}
+.header-slide {
+    height: 130px;
+    width: 800px;
+    background: #0a0909db;
+    clear: both;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    margin-left: 133px;
+}
+
+.header-slide1 {
+    height: 130px;
     position: absolute;
 }
+
+.header-slide__img {
+    height: 100px;
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #494949;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.header-slide__img > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #DB2E2E;
+    margin: 9px;
+}
+
+.header-slide__textarea {
+    float: left;
+    width: 45%;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.header-slide__price {
+    float: left;
+    width: 20%;
+}
+.header-slide__textarea > h4 {
+    font-size: 16px;
+    margin-top: 22px;
+    color: white;
+}
+
+.header-slide__textarea > p {
+    color: #909090;
+    font-size: 12px;
+}
+.price__tren {
+    margin-top: 12px;
+}
+.price__tren > p {
+    font-weight: bold;
+    float: left;
+    width: 25%;
+    text-align: right;
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.price__tren > span {
+    color: white;
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+a#trongheader {
+    width: 120px;
+}
+
 /*    End .header    */
 
 /*    SECTION    */
@@ -333,6 +435,7 @@ p.section__title {
     font-family: sans-serif;
     font-size: 15px;
     opacity: 0.9;
+    clear: both;
 }
 
 p.section__desc {
@@ -910,14 +1013,16 @@ p.offers-footer__text {
 .slide {
     background-image: url(img/nen.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 1200px;
-    height: 1200px;
+    background-size: 100% auto;
+    height: 380px;
+    position: relative;
 }
 
 .slide-body {
-    width: 100%;
+    width: 1140px;
     text-align: center;
     padding-top: 50px;
+    position: absolute;
 }
 
 .slide-body__img {
