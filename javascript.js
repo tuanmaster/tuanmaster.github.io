@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded",function(){
-
 	var traiqua = document.querySelector(".header-title__desc");
 	var trenxuong = document.querySelector(".header-imges__img");
 	var phaiqua = document.querySelector(".header-title__button");
@@ -8,7 +7,6 @@ document.addEventListener("DOMContentLoaded",function(){
 	trenxuong.classList.add('trenxuong');
 
 	//slide
-	var anh = document.getElementsByClassName('dream-link');
 	
 	
 

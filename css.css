@@ -31,7 +31,7 @@ a.banner-left__link {
     margin-right: 15px;
 }
 
-i.far.fa-envelope {
+i.fa.fa-envelope {
     color: white;
     margin-right: 7px;
     font-size: 15px;
@@ -48,7 +48,7 @@ p.banner-left__desc {
     font-size: 12px;
 }
 
-i.fas.fa-phone {
+i.fa.fa-phone {
     color: white;
     font-size: 15px;
     margin-right: 7px;
@@ -71,7 +71,7 @@ p.banner-right__desc > span {
     border-left: 1px solid red;
     padding-left: 10px;
 }
-i.fas.fa-power-off {
+i.fa.fa-power-off {
     margin-right: 7px;
     color: white;
 }
@@ -111,7 +111,7 @@ a.icon__link {
 .banner-right__icon {
     float: right;
 }
-i.fas.fa-lock {
+i.fa.fa-lock {
     color: white;
     font-size:12px;
 }
@@ -120,10 +120,12 @@ img.img_icon {
     transition: 0.5s;
 }
 
-span.fa-stack.fa-lg {
+span.icon_link__img {
     text-align: center;
     height: 25px;
     overflow: hidden;
+    display: inline-block;
+    margin: 7.5px 5px;
 }
 
 img.img_icon:hover {
@@ -325,7 +327,11 @@ img.header-imges__img {
     transition: 1s;
     z-index: 1;
 }
-.header-imges {float: left;width: 45%;margin-top: -16px;}
+.header-imges {
+    float: left;
+    width: 45%;
+    margin-top: -16px;
+}
 img.header-imges__img.trenxuong {
     opacity: 1;
     padding: 0;
@@ -702,7 +708,7 @@ a.specials-footer__link:hover {
     text-decoration: none;
     background-color: #C22121;
 }
-/*  phÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n hiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡u ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ng chuyÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢n ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ng trong specials*/
+
 .col-3-1.bentrai {
     transition: 1.5s;
     opacity: 0;
@@ -798,11 +804,11 @@ img.img_iconto {
     transition: 0.5s;
 }
 img.img_iconto:hover {
-    margin-top: -50px;
+    margin-top: -35px;
     transition: 0.5s;
 }
 
-span.fa-stack.fa-lg.tohon {
+span.icon_link__img.tohon {
     text-align: center;
     height: 35px;
     overflow: hidden;
@@ -812,7 +818,7 @@ span.trang {
     color: white;
 }
 
-/*css cho hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng chuyÃƒÂ¡Ã‚Â»Ã†â€™n Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng phÃƒÂ¡Ã‚ÂºÃ‚Â§n dream*/
+
 .col-4.dream-col1 {
     left: -50%;
     opacity: 0;
@@ -1293,8 +1299,11 @@ input#submit {
     background-repeat: no-repeat;
     background-position: 30px 15px;
     padding-left: 25px;
+    transition: 0.8s;
 }
-
+input#submit:hover{
+    background-color: #C22121;
+}
 .col-4.contact-col1 {
     left: -50%;
     opacity: 0;
