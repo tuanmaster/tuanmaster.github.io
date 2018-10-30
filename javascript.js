@@ -1,3 +1,6 @@
+$('.carousel').carousel({
+  interval: 3000
+})
 document.addEventListener("DOMContentLoaded",function(){
 	var traiqua = document.querySelector(".header-title__desc");
 	var trenxuong = document.querySelector(".header-imges__img");
@@ -5,7 +8,6 @@ document.addEventListener("DOMContentLoaded",function(){
 	traiqua.classList.add('traiqua');
 	phaiqua.classList.add('phaiqua');
 	trenxuong.classList.add('trenxuong');
-
 	//slide
 	
 	

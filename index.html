@@ -5,9 +5,12 @@
 	<link rel="icon" href="img/favicon.ico">
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap/css/font-awesome.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=vietnamese" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
@@ -116,61 +119,77 @@
 			<div class="header-imges">
 				<img src="img/asian-girl.png" class="header-imges__img">
 			</div>
-			<div class="header-slide">
-				<div class="header-slide1">
-					<div class="header-slide__img">
-						<img src="img/anh4.jpg">
-					</div>
-					<div class="header-slide__textarea">
-						<h4> TRY OUR <span class="red">CHEF’S RECOMMENDATION!</span> </h4>
-						<p>Lorem ipsum <span class="trang">dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-					</div>
-					<div class="header-slide__price">
-						<div class="price__tren">
-							<p> VALID FOR MONTH </p>
-							<span> $55 </span>
+			<div id="carouselExampleControls" class="carousel slide header-slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="d-block w-100 header-slide1">
+							<div class="header-slide__img">
+								<img src="img/anh4.jpg">
+							</div>
+							<div class="header-slide__textarea">
+								<h4> TRY OUR <span class="red">CHEF’S RECOMMENDATION!</span> </h4>
+								<p>Lorem ipsum <span class="trang">dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+							</div>
+							<div class="header-slide__price">
+								<div class="price__tren">
+									<p> VALID FOR MONTH </p>
+									<span> $55 </span>
+								</div>
+								<a href="#" class="price-right" id="trongheader"> 
+									<span> ADD TO CART </span> 
+								</a>
+							</div>
 						</div>
-						<a href="#" class="price-right" id="trongheader"> 
-							<span> ADD TO CART </span> 
-						</a>
+					</div>
+					<div class="carousel-item">
+						<div class="d-block w-100 header-slide1">
+							<div class="header-slide__img">
+								<img src="img/anh3.jpg">
+							</div>
+							<div class="header-slide__textarea">
+								<h4> CHECK TODAY'S <span class="red">FEATURED DISH </span> </h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <span class="trang">incididunt ut </span>labore et dolore magna aliqua. Ut enim ad minim. </p>
+							</div>
+							<div class="header-slide__price">
+								<div class="price__tren">
+									<p> ONLY FOR TODAY </p>
+									<span> $120 </span>
+								</div>
+								<a href="#" class="price-right" id="trongheader"> 
+									<span> ADD TO CART </span> 
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="d-block w-100 header-slide1">
+							<div class="header-slide__img">
+								<img src="img/anh2.jpg">
+							</div>
+							<div class="header-slide__textarea">
+								<h4> WEEK'S <span class="red">SPECIAL COMBO</span> </h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate alias quibusdam suscipit ea non consequuntur<span class="trang"> fugit hic </span>quia deleniti odit.</p>
+							</div>
+							<div class="header-slide__price">
+								<div class="price__tren">
+									<p> VALID FOR WEEK</p>
+									<span> $90 </span>
+								</div>
+								<a href="#" class="price-right" id="trongheader"> 
+									<span> ADD TO CART </span> 
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="header-slide1">
-					<div class="header-slide__img">
-						<img src="img/anh3.jpg">
-					</div>
-					<div class="header-slide__textarea">
-						<h4> CHECK TODAY'S <span class="red">FEATURED DISH </span> </h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <span class="trang">incididunt ut </span>labore et dolore magna aliqua. Ut enim ad minim. </p>
-					</div>
-					<div class="header-slide__price">
-						<div class="price__tren">
-							<p> ONLY FOR TODAY </p>
-							<span> $120 </span>
-						</div>
-						<a href="#" class="price-right" id="trongheader"> 
-							<span> ADD TO CART </span> 
-						</a>
-					</div>
-				</div>
-				<div class="header-slide1">
-					<div class="header-slide__img">
-						<img src="img/anh2.jpg">
-					</div>
-					<div class="header-slide__textarea">
-						<h4> WEEK'S <span class="red">SPECIAL COMBO</span> </h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate alias quibusdam suscipit ea non consequuntur<span class="trang"> fugit hic </span>quia deleniti odit.</p>
-					</div>
-					<div class="header-slide__price">
-						<div class="price__tren">
-							<p> VALID FOR WEEK</p>
-							<span> $90 </span>
-						</div>
-						<a href="#" class="price-right" id="trongheader"> 
-							<span> ADD TO CART </span> 
-						</a>
-					</div>
-				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
 		</div>
 	</div> <!-- End .header -->
@@ -249,7 +268,7 @@
 							</a>
 						</div> <!-- End .price --> 
 					</div> <!-- End.col-3-1  1-->
-					
+
 					<div class="col-3-1 benphai">
 						<a href="#" class="specials-link">
 							<div class="specials-link__img">
@@ -565,7 +584,7 @@
 					</div>
 				</div> <!-- End .col-4 1-->
 				<div class="col-4 dream-col2">
-					
+
 					<div class="dream-link__img">
 						<a href="#" class="dream-link"><img src="img/anh10.jpg"></a>
 					</div>
@@ -826,32 +845,42 @@
 			</div>
 		</div> <!-- End .container -->
 	</div> <!-- End .offers -->
-
-	<div class="slide">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+	<div class="slide-background__red">
 		<div class="container">
-			<div class="slide-body">
-				<div class="slide-body__img">
-					<img src="img/gai1.jpg">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="d-block w-100 slide-body">
+							<div class="slide-body__img">
+								<img src="img/gai1.jpg">
+							</div>
+							<h2 class="slide-body__title"> "THE BEST SPRINGTIME ROLLS IN TOWN" </h2>
+							<p class="slide-body__desc"> Faye Valentine, Age 29 </p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="d-block w-100 slide-body">
+							<div class="slide-body__img">
+								<img src="img/gai2.jpg">
+							</div>
+							<h2 class="slide-body__title"> "THE BEST SERVICE I'VE SEEN </h2>
+							<p class="slide-body__desc"> Tomoyo Kinomoto, Age 24 </p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="d-block w-100 slide-body">
+							<div class="slide-body__img">
+								<img src="img/gai3.jpg">
+							</div>
+							<h2 class="slide-body__title"> "THE BEST PRICES YOU CAN GET" </h2>
+							<p class="slide-body__desc"> Kenny D. Hiroshi, Age 32 </p>
+						</div>
+					</div>
 				</div>
-				<h2 class="slide-body__title"> "THE BEST SPRINGTIME ROLLS IN TOWN" </h2>
-				<p class="slide-body__desc"> Faye Valentine, Age 29 </p>
-			</div>
-			<div class="slide-body">
-				<div class="slide-body__img">
-					<img src="img/gai2.jpg">
-				</div>
-				<h2 class="slide-body__title"> "THE BEST SERVICE I'VE SEEN </h2>
-				<p class="slide-body__desc"> Tomoyo Kinomoto, Age 24 </p>
-			</div>
-			<div class="slide-body">
-				<div class="slide-body__img">
-					<img src="img/gai3.jpg">
-				</div>
-				<h2 class="slide-body__title"> "THE BEST PRICES YOU CAN GET" </h2>
-				<p class="slide-body__desc"> Kenny D. Hiroshi, Age 32 </p>
 			</div>
 		</div>
-	</div> <!-- End .slide2 -->
+		</div>
+	</div> <!-- End .slide -->
 
 	<div class="thongke">
 		<div class="container">
@@ -963,32 +992,32 @@
 			<p class="article__desc"> <span class="bold">THE <span class="red">RED </span>SAMURAI </span>- ALL RIGHTS RESERVED 2014 </p>
 			<div class="article-icon">
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh27.png" class="img_icon">
 					</span>
 				</a>
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh28.png" class="img_icon">
 					</span>
 				</a>
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh29.png" class="img_icon">
 					</span>
 				</a>
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh30.png" class="img_icon">
 					</span>
 				</a>
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh31.png" class="img_icon">
 					</span>
 				</a>
 				<a href="#" class="icon__link">
-					<span class="fa-stack fa-lg">
+					<span class="icon_link__img">
 						<img src="img/anh32.png" class="img_icon">
 					</span>
 				</a>
@@ -996,6 +1025,5 @@
 		</div>
 	</div> <!-- End .footer -->
 	<script type="text/javascript" src="javascript.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
