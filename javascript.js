@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-  interval: 3000
+	interval: 3000
 })
 document.addEventListener("DOMContentLoaded",function(){
 	var traiqua = document.querySelector(".header-title__desc");

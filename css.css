@@ -283,7 +283,7 @@ p.header-title__desc {
 }
 p.header-title__desc.traiqua {
     opacity: 1;
-    margin-left: 0;
+    margin-left: 115px;
 }
 
 button.header-title__button {
